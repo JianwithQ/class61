@@ -97,6 +97,7 @@ public class IndexManager {
         tokenStream.reset();
         while (tokenStream.incrementToken()){
             System.out.println(charTermAttribute);
+            System.out.println(charTermAttribute);
         }
     }
 
